@@ -61,6 +61,10 @@ https://github.com/alchemycodelab/alchemy-fsjs-december-2020/tree/main/11_scrapi
     1. **sql**
         1. setup.sql
 1. ACP to dev branch
+    1. *git add -A*
+    1. *git commit -m 'add initial files and folders'*
+    1. *git push -u origin dev*
+
 
 
 ## Overview
