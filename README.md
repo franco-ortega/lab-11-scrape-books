@@ -57,7 +57,7 @@ https://github.com/alchemycodelab/alchemy-fsjs-december-2020/tree/main/11_scrapi
         1. store.js
         1. scraper.js
     1. **models**
-        1. books.js
+        1. Book.js
     1. **sql**
         1. setup.sql
 1. ACP to dev branch
