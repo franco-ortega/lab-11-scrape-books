@@ -72,11 +72,12 @@ https://github.com/alchemycodelab/alchemy-fsjs-december-2020/tree/main/11_scrapi
 1. Setup
 
 1. Create books table in setup.sql
-    1. title
-    1. coverImage
-    1. rating
-    1. price
-    1. boolean
+    1. id (number)
+    1. title (text)
+    1. cover_image (text?)
+    1. rating (number)
+    1. price (number)
+    1. in_stock (boolean)
 
 1. Create Book model in Book.js
     1. constructor
