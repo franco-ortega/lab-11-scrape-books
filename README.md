@@ -57,10 +57,14 @@ https://github.com/alchemycodelab/alchemy-fsjs-december-2020/tree/main/11_scrapi
         1. store.js
         1. scraper.js
     1. **models**
-        1. books.js
+        1. Book.js
     1. **sql**
         1. setup.sql
 1. ACP to dev branch
+    1. *git add -A*
+    1. *git commit -m 'add initial files and folders'*
+    1. *git push -u origin dev*
+
 
 
 ## Overview
@@ -68,11 +72,12 @@ https://github.com/alchemycodelab/alchemy-fsjs-december-2020/tree/main/11_scrapi
 1. Setup
 
 1. Create books table in setup.sql
-    1. title
-    1. coverImage
-    1. rating
-    1. price
-    1. boolean
+    1. id (number)
+    1. title (text)
+    1. cover_image (text?)
+    1. rating (text)
+    1. price (text)
+    1. in_stock (boolean)
 
 1. Create Book model in Book.js
     1. constructor
